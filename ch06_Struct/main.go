@@ -33,6 +33,7 @@ type Stringer interface{
 	String() string
 }
 
+// method
 func (p person) String() string{
 	return fmt.Sprintf("the name is %s, age is %d",p.name,p.age)
 }

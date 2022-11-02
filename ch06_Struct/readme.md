@@ -9,6 +9,15 @@ type 名稱 struct{
 
 ---
 
+## method
+像是class裡的方法，提供你可以在某種型態上(struct, int, string)定義方法
+```
+func (名稱 任何型態) method名稱() 回傳型態{
+}
+```
+
+---
+
 ## 接口
 ```
 type 名稱 interface{

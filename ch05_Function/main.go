@@ -5,6 +5,11 @@ import "errors"
 
 type Age uint
 
+// 等同construct
+func init() {
+	fmt.Println("will be the first")
+}
+
 func sum(a, b int) int {
 	return a + b
 }

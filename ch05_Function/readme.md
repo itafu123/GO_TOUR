@@ -1,5 +1,13 @@
 #函數
 
+
+- func init
+等同construct
+```
+func init() {
+}
+```
+
 - 函數
 ```
 func 名稱(參數) 類型 {}

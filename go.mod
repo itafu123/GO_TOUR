@@ -1,3 +1,3 @@
-module ch01
+module gotour
 
 go 1.17
