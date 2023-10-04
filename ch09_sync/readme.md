@@ -10,3 +10,5 @@ func add(i){
     mutex.UnLock()
 }
 ```
+
+2222
